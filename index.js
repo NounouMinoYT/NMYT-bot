@@ -5,7 +5,7 @@ var Minobot  = new commando.Client({
 });
 
 Minobot.login('NTcxNzc4ODMyMzQ0OTQwNTU1.XMyvzA.YnecxfwnNs2MQP6XJ4zdbjhnZ10');
-
+Minobot.login(process.emv.token);
 Minobot.registry.registerGroup('other', 'Other');
 Minobot.registry.registerCommandsIn(__dirname + "/commands")
 Minobot.registry.registerDefaults();
